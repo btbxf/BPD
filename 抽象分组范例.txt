@@ -1,0 +1,56 @@
+### **1.输入验证与注入类问题****共性**:这些弱点都与输入的验证、输出的编码或逃逸相关，可能导致注入攻击(如命令执行、SQL注入等)。
+### **2.内存管理类问题****共性**:与内存缓冲区操作不当有关，可能导致缓冲区溢出或其他内存相关漏洞。
+### **3.信息泄露与敏感数据保护类问题****共性**:这些弱点都与敏感信息的泄露或加密机制的不足有关，可能导致数据被窃取或解密 。
+### **4.认证与授权类问题****共性**:这些弱点都与身份验证、权限管理或授权机制的不足有关，可能导致未经授权的访问。
+### **5.资源管理类问题****共性**:这些弱点都与资源的管理、同步或释放相关，可能导致资源泄漏、竞态条件或性能问题。
+### **6.算法设计与复杂度类问题****共性**:这些弱点都与资源的管理、同步或释放相关，可能导致资源泄漏、竞态条件或性能问题。
+### **7.数据处理与类型转换类问题****共性**:这些弱点都与数据处理、类型转换或对象引用的错误有关，可能导致逻辑错误或安全漏洞。
+### **8.其他(无明显关联的弱点)****共性**:这些弱点虽然没有明显的直接关联，但都涉及资源管理、同步或数据存储中的错误，可能导致安全漏洞。
+
+
+
+
+### **1.输入验证与注入类问题**
+**CWE-20**: Improper Input Validation*
+**CWE-74**: Improper Neutralization of Special Elements in 0utput Used by aDownstream Component ('Iniection')**CWE-116**: Improper Encoding or Escaping of Output
+**共性**:这些弱点都与输入的验证、输出的编码或逃逸相关，可能导致注入攻击(如命令执行、SQL注入等)。
+### **2.内存管理类问题**
+**CWE-119**: Improper Restriction of Operations within the Bounds of a MemoryBuffer
+**共性**:与内存缓冲区操作不当有关，可能导致缓冲区溢出或其他内存相关漏洞。
+### **3.信息泄露与敏感数据保护类问题**
+**CWE-200**:Exposure of Sensitive Information to an nauthorized Actor
+**CWE-311**:Missing Encryption of Sensitive Data
+**CWE-326**:Inadequate Encryption Strength
+**CWE-327**: Use of a Broken or Risky Cryptographic Algorithm
+**CWE-330**:Use of Insufficiently Random Values
+**共性**:这些弱点都与敏感信息的泄露或加密机制的不足有关，可能导致数据被窃取或解密 。
+### **4.认证与授权类问题**
+**CWE-269**: Improper Privilege Management
+**CWE-287**: Improper Authentication
+**CWE-862**:Missing Authorization
+**CWE-863**:Incorrect Authorization
+**共性**:这些弱点都与身份验证、权限管理或授权机制的不足有关，可能导致未经授权的访问。
+### **5.资源管理类问题**
+*CWE-362**:Concurrent Execution using Shared Resource with ImproperSynchronization('Race condition')**CWE-400**:Uncontrolled Resource Consumption
+**CWE-404**: Improper Resource Shutdown or Release
+**CWE-672**: 0peration on a Resource after Expiration or Release**CWE-674**:Uncontrolled Recursion
+**共性**:这些弱点都与资源的管理、同步或释放相关，可能导致资源泄漏、竞态条件或性能问题。
+### **6.算法设计与复杂度类问题**
+**CWE-407**: Inefficient Algorithmic Complexity**CWE-754**: Improper check for Unusual or Exceptional Conditions**CWE-755**: Improper Handling of Exceptional Conditions
+**CWE-834**:Excessive Iteration
+**共性**:这些弱点都与算法的效率、复杂度或对异常条件的处理不当有关，可能导致性能问题或资源耗尽。
+### **7.数据处理与类型转换类问题**
+**CWE-697**:Incorrect Comparison
+**CWE-704**:Incorrect Type Conversion or Cast
+**CWE-706**: Use of Incorrectly-Resolved Name or Reference**CWE-732**: Incorrect Permission Assignment for Critical Resource
+**共性**:这些弱点都与数据处理、类型转换或对象引用的错误有关，可能导致逻辑错误或安全漏洞。
+### **8.其他(无明显关联的弱点)**
+**CWE-436**:Interpretation Conflict
+**CWE-61日**:Externally Controlled Reference to a Resource in Another Sphere
+**CWE-662**:Improper Synchronization
+**CWE-665**:Improper Initialization
+**CWE-668**:Exposure of Resource to Wrong Sphere
+**CWE-669**Incorrect Resource Transfer Between Spheres**CWE-670**:Always-Incorrect Control Flow Implementation
+**CWE-682**:Incorrect Calculation
+**CWE-913**:Improper Control of Dynamically-Managed Code Resources**CWE-922**:Insecure Storage of Sensitive Information
+**共性**:这些弱点虽然没有明显的直接关联，但都涉及资源管理、同步或数据存储中的错误，可能导致安全漏洞。

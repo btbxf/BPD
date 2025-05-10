@@ -1,0 +1,7 @@
+**CWE-287**: Improper Authentication
+CWE-290 - Base Authentication Bypass by Spoofing
+CWE-294 - Base Authentication Bypass by Capture-replay
+CWE-295 - Base Improper Certificate Validation
+CWE-306 - Base Missing Authentication for Critical Function
+CWE-307 - Base Improper Restriction of Excessive Authentication Attempts
+CWE-521 - Base Weak Password Requirements

@@ -1,0 +1,37 @@
+CWE-20 Improper Input Validation
+CWE-74 Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')
+CWE-116 Improper Encoding or Escaping of Output
+CWE-119 Improper Restriction of Operations within the Bounds of a Memory Buffer
+CWE-200 Exposure of Sensitive Information to an Unauthorized Actor
+CWE-269 Improper Privilege Management
+CWE-287 Improper Authentication
+CWE-311 Missing Encryption of Sensitive Data
+CWE-326 Inadequate Encryption Strength
+CWE-327 Use of a Broken or Risky Cryptographic Algorithm
+CWE-330 Use of Insufficiently Random Values
+CWE-345 Insufficient Verification of Data Authenticity
+CWE-362 Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')
+CWE-400 Uncontrolled Resource Consumption
+CWE-404 Improper Resource Shutdown or Release
+CWE-407 Inefficient Algorithmic Complexity
+CWE-436 Interpretation Conflict
+CWE-610 Externally Controlled Reference to a Resource in Another Sphere
+CWE-662 Improper Synchronization
+CWE-665 Improper Initialization
+CWE-668 Exposure of Resource to Wrong Sphere
+CWE-669 Incorrect Resource Transfer Between Spheres
+CWE-670 Always-Incorrect Control Flow Implementation
+CWE-672 Operation on a Resource after Expiration or Release
+CWE-674 Uncontrolled Recursion
+CWE-682 Incorrect Calculation
+CWE-697 Incorrect Comparison
+CWE-704 Incorrect Type Conversion or Cast
+CWE-706 Use of Incorrectly-Resolved Name or Reference
+CWE-732 Incorrect Permission Assignment for Critical Resource
+CWE-754 Improper Check for Unusual or Exceptional Conditions
+CWE-755 Improper Handling of Exceptional Conditions
+CWE-834 Excessive Iteration
+CWE-862 Missing Authorization
+CWE-863 Incorrect Authorization
+CWE-913 Improper Control of Dynamically-Managed Code Resources
+CWE-922 Insecure Storage of Sensitive Information
